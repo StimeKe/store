@@ -85,7 +85,7 @@
                         return (
                           (e.next = 2),
                           Object(i['c'])(
-                            'http://'.concat(
+                            'https://'.concat(
                               localStorage.getItem('boxjs') || 'boxjs.net',
                               '/query/boxdata',
                             ),
@@ -128,7 +128,7 @@
                           (e.prev = 0),
                           (e.next = 3),
                           Object(i['c'])(
-                            'http://'.concat(
+                            'https://'.concat(
                               localStorage.getItem('boxjs') || 'boxjs.net',
                               '/api/save',
                             ),
