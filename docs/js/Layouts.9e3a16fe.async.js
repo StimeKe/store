@@ -177,7 +177,7 @@
                           (t.prev = 0),
                           (t.next = 3),
                           Object(u['c'])(
-                            'http://'.concat(
+                            'https://'.concat(
                               localStorage.getItem('boxjs') || 'boxjs.net',
                               '/api/save',
                             ),
